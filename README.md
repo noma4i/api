@@ -12,7 +12,7 @@
 API
 ===
 
-Обмен между ИС НКБ и ИС Клиента осуществляется по протоколу HTTP. 
+Обмен между ИС НКБ и ИС Клиента осуществляется по протоколу HTTPS. 
 
 Формат данных обмена - JSON. 
 
@@ -82,7 +82,7 @@ HTTP Basic over HTTPS
 
 ### Пример №1: Выявлены признаки аффилированности среди всех участников
 
-`GET http://www.creditnet.ru/nkbrelation/api/connections?q=60510227%0A1117746960704%0A7703561549`
+`GET https://www.creditnet.ru/nkbrelation/api/connections?q=60510227%0A1117746960704%0A7703561549`
 
 ```json
 {
@@ -101,7 +101,7 @@ HTTP Basic over HTTPS
 
 ### Пример №2: Выявлены признаки аффилированности среди некоторых участников
 
-`GET http://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A7703561549%0A1127746519900`
+`GET https://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A7703561549%0A1127746519900`
 
 ```json
 {
@@ -122,7 +122,7 @@ HTTP Basic over HTTPS
 
 ### Пример №3: Выявлено несколько групп с признаками аффилированности
 
-`GET http://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A7703561549%0A1127746519900%0A1057747690890`
+`GET https://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A7703561549%0A1127746519900%0A1057747690890`
 
 ```json
 {
@@ -145,7 +145,7 @@ HTTP Basic over HTTPS
 
 ### Пример №4: Признаки аффилированности не выявлены
 
-`GET http://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A1047796089450%0A1127746519900`
+`GET https://www.creditnet.ru/nkbrelation/api/connections?q=1117746960704%0A1047796089450%0A1127746519900`
 
 ```json
 {
