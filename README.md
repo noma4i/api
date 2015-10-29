@@ -800,7 +800,7 @@ HTTP Basic over HTTPS
 
 ### Пример №1: Поиск балансов организации
 
-`GET https://www.creditnet.ru/nkbrelation/api/balances/981308`
+`GET https://www.creditnet.ru/nkbrelation/api/balance/981308`
 
 `200 OK`
 
@@ -830,7 +830,7 @@ HTTP Basic over HTTPS
 
 ### Пример №2: Поиск балансов вернул пустой ответ
 
-`GET https://www.creditnet.ru/nkbrelation/api/balances/9813`
+`GET https://www.creditnet.ru/nkbrelation/api/balance/9813`
 
 `200 OK`
 
